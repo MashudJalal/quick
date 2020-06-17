@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header{
+    padding: 20px 0;
+    box-shadow: 0px 2px 5px #88888814;
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+.logo img{
+
+}
+nav{
+    width: 70%;
+    float: left;
+    padding-top: 10px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+nav ul li{
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000000d9;
+    padding: 10px 15px;
+    transition-duration: .5s;
+    font-weight: 500;
+}
+nav ul li a:hover{
+    color: #0C66FF;
+}
+
+.banner-section{
+    padding: 50px 0 70px;
+    text-align: center;
+}
+.header-part h1{
+    padding-bottom: 5px;
+}
+.header-part p{
+    color: #000000cf;
+}
+.banner-image{
+    padding-top: 30px;
+}
+.banner-image img{
+    width: 60%;
+}
+
+.mid-section{
+    padding-bottom: 40px;
+}
+.mid-section .col-1-2{
+    max-width: 49%;
+    flex-basis: 49%;
+}
+.mid-section .col-1-2 h1{
+    color: #000000d9;
+}
+.mid-section .col-1-2 p{
+    line-height: 25px;
+}
+
+.curd-section{
+    padding-bottom: 70px;
+}
+.col-1-3{
+    max-width: 33.33%;
+    flex-basis: 33.33%;
+    padding: 6px;
+}
+.col-1-3 img{
+    max-width: 100%;
+    height: 196px;
+}
+.col-1-3 h3{
+    color: #000000d9;
+    padding: 1em 0;
+}
+.col-1-3 p{
+    color: #000000b5;
+    line-height: 25px;
+}
+.curd{
+    padding: 30px;
+    border-radius: 15px;
+}
